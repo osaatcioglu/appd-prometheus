@@ -1,7 +1,7 @@
-import _ from 'lodash'
-import fetch from 'node-fetch'
-import fs from 'fs'
-import analytics from './analytics.js'
+const _ = require('lodash')
+const fetch = require('node-fetch')
+const fs = require('fs')
+const analytics = require('./analytics.js')
 
 /**
  * Set to true to read from a local file instead of the Prometheus API

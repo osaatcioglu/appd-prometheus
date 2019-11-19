@@ -1,6 +1,6 @@
-import _ from 'lodash'
-import fetch from 'node-fetch'
-import fs from 'fs'
+const _ = require('lodash')
+const fetch = require('node-fetch')
+const fs = require('fs')
 
 const createSchema = async (settings) => {
   console.log(`[starting] creating ${settings.schemaName} schema...`)
